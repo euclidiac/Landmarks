@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
-    var landmark: Landmark
+    var landjmark: Landmark
     var body: some View {
         ScrollView {
             MapView(coordinates: landmark.locationCoordinate)
